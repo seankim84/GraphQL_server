@@ -1,0 +1,17 @@
+type Movie {
+    id: Int!
+    name: String!
+    age: Int! 
+    gender:String!
+    score: Float!
+}
+ 
+type Query {
+    movies: [Movie]!
+    movie(id: Int!): Movie!
+}
+
+type Mutation {
+    addMovie(name: String!, score: Float!): Movie!
+    deleteMovie(id: Int!): Boolean!
+}
