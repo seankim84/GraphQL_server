@@ -5,7 +5,8 @@
   "author": "Sean",
   "license": "MIT",
   "dependencies": {
-    "graphql-yoga": "^1.16.7"
+    "graphql-yoga": "^1.16.7",
+    "node-fetch": "^2.2.1"
   },
   "scripts": {
     "start": "nodemon --exec babel-node index.js"
